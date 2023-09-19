@@ -9,7 +9,7 @@
   "name": "front-end-node",
   "description": "",
   "version": "1.0.0",
-  "main": "AxiosNodeHtml.js",
+  "main": "server.js",
   "devDependencies": {
     "prettier": "^3.0.3"
   },
