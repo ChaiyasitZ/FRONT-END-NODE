@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 
 
 
-const base_url = 'https://node51818-chaiaysitz.proen.app.ruk-com.cloud:11190';
+const base_url = 'https://node51818-chaiaysitz.proen.app.ruk-com.cloud';
 
 
 app.set('view engine', 'ejs');
