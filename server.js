@@ -4,7 +4,6 @@ var bodyParser = require('body-parser');
 const path = require('path');
 const app = express();
 
-
 const base_url = 'http://node51818-chaiaysitz.proen.app.ruk-com.cloud';
 
 app.set('views', path.join(__dirname, 'views'));
