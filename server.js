@@ -3,7 +3,6 @@ const axios = require('axios');
 const app = express();
 var bodyParser = require('body-parser');
 const path = require("path");
-const { prototype } = require('events');
 
 const base_url = 'http://node51818-chaiaysitz.proen.app.ruk-com.cloud';
 
