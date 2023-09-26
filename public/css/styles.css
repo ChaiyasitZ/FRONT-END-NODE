@@ -1,22 +1,20 @@
-/* Set font family and size for the whole page */
-body {
+body { 
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
   }
   
-  /* Center the main heading */
   h1 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
     font-size: 36px;
-    color: #2C3E50;
+    color: #2c3E50;
   }
   
-  /* Style the table */
   table {
     border-collapse: collapse;
     width: 100%;
+    border: 1px solid #2c3E50;
   }
   
   th, td {
@@ -25,7 +23,7 @@ body {
   }
   
   th {
-    background-color: #2C3E50;
+    background-color: #2c3E50;
     color: white;
     font-weight: 600;
     text-transform: uppercase;
@@ -35,11 +33,10 @@ body {
     background-color: #f5f5f5;
   }
   
-/* Style the form */
-form {
+  form {
     width: 50%;
     margin: auto;
-    border: 2px solid #2C3E50;
+    border: 2px solid #2c3E50;
     padding: 20px;
     border-radius: 5px;
   }
@@ -50,43 +47,45 @@ form {
     margin-bottom: 10px;
   }
   
-  input[type="text"] {
+  input[type=text], input[type=number] {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
-    border-radius: 5px;
     border: none;
-    background-color: #f2f2f2;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    align-items: center;
   }
   
-  input[type="submit"] {
-    background-color: #2C3E50;
-    color: white;
-    border: none;
+  input[type=submit] {
     padding: 10px 16px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: #2c3E50;
+    color: white;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px;
     margin-top: 10px;
+    align-items: center;
   }
   
-  /* Style the links */
   a {
     display: inline-block;
     margin: 10px;
-    color: #2C3E50;
+    color: #2c3E50;
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
-    transition: border-bottom-color 0.2s;
+    transition: border-bottom 0.2s;
   }
   
   a:hover {
-    border-bottom-color: #2C3E50;
+    border-bottom-color: 2px solid #2c3E50;
   }
-
-  .link-center {
+  
+  .link-center a {
     text-align: center;
     margin-top: 20px;
   }
@@ -94,29 +93,27 @@ form {
   .link-center a {
     display: inline-block;
     margin: 10px;
-    color: #2C3E50;
+    color: #2c3E50;
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
-    transition: border-bottom-color 0.2s;
+    transition: border-bottom 0.2s;
   }
   
   .link-center a:hover {
-    border-bottom-color: #2C3E50;
+    border-bottom-color: #2c3E50;
   }
-
-/* Style the table */
-.book-table {
+  
+  .book-table {
     border-collapse: collapse;
     width: 75%;
-    margin: 0 auto; /* center the table */
+    margin: 0 auto;
     margin-bottom: 20px;
-    border-bottom: 2px solid #2C3E50;
+    border-bottom: 2 px solid #2c3E50;
   }
   
   th, td {
     text-align: left;
     padding: 16px;
   }
-  
